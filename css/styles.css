@@ -104,6 +104,7 @@ h3{
     width: 30%;
     box-shadow: 2px 2px 2px 2px #888888;
     text-align: center;
+    padding: 1% 1%;
     display: inline-block;
     margin: 0.5%;
     padding: 2%;
@@ -160,3 +161,19 @@ h3{
     /* float:right; */
 }
 
+.choose-block img{
+    height: 100px;
+    margin-bottom: 1%;
+}
+
+.review img{
+    border-radius: 50%;
+    height: 100px;
+}
+
+#maid-image{
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    display: inline-block;
+}
