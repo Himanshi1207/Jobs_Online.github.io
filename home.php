@@ -1,9 +1,14 @@
+<?php
+include("connection/connection.php");
+error_reporting(0);
+?>
+
 <!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
         <title>Find Jobs Online</title>
-        <link rel="stylesheet" href="css/styles.css" />
+        <link rel="stylesheet" href="css/styles_home.css" />
     </head>
     <body>
         <nav>
