@@ -23,13 +23,13 @@ nav{
     float: left;
 }
 
-ul{
+#navbar-list{
     width: 100%;
 }
-li{
+
+#navbar-list li{
     display: inline;
     margin: 0px 10px;
-    float: right;
 }
 
 #navbar-list{
@@ -40,31 +40,21 @@ li{
 footer{
     border-radius: 10% 10% 0% 0%;
     background-color: rgb(18,65,67);
-    /* position: relative; */
-    /* top: 500px; */
     font: large;
     color: white;
 }
 
-table{
-    width: 100%;
+.footer-list{
+    width: 20%;
     margin: auto;
     align-items: center;
     padding: 2%;
+    display: inline-block;
 }
 
-th, td{
-    margin: 10px auto;
-    width: 20%;
-    padding: 0.5%;
-    align-items: center;
-}
-
-th{
-    padding-bottom: auto;
-    border-bottom-style: solid;
-    border-color: rgb(240,84,84);
-    border-bottom-width: 2px;
+.ul-heading{
+    padding: 5%;
+    font-size: 1.5em;
 }
 
 .how-it-works-block{
@@ -135,10 +125,8 @@ h3{
 #main{
     width: 50%;
     padding: 1%;
-    position: relative;
-    top: 20%;
-    margin: 2%;
-    display: inline-block;
+    padding-top: 20%;
+    margin: auto;
     color: white;
     margin-top: 7%;
     margin-bottom: 7%;
@@ -158,7 +146,6 @@ h3{
     top: -25%;
     left: -5%;
     z-index: -1;
-    /* float:right; */
 }
 
 .choose-block img{
@@ -174,6 +161,339 @@ h3{
 #maid-image{
     position: absolute;
     top: 10%;
-    right: 5%;
+    right: 1%;
+}
+
+#main-h1{
+    color: white;
+    font-size: 4em;
+    margin-bottom: 0.5%;
+}
+
+#navbar-list span{
+    float: right;
+}
+
+.how-it-works-image{
+    border-radius: 50%;
+    border: black 1px solid;
+    height: 100px;
+    width: 100px;
     display: inline-block;
+    overflow: hidden;
+}
+
+.how-it-works-image img{
+    height: 80px;
+    width: 80px;
+}
+
+.arrow{
+    font-size: 100px;
+    display: inline-block;
+}
+
+@media (max-width: 483px) {
+    #maid-image{
+        visibility: hidden;
+    }
+
+    div{
+        font-size: 1em;
+    }
+
+    #main-h1{
+        font-size: 2em;
+    }
+
+    nav{
+        position: relative;
+        border-radius: 0%;
+        display: block;
+    }
+
+    #navbar-list span{
+        width: 100%;
+    }
+
+    #navbar-list li{
+        display: block;
+        float: right;
+        width: 100%;
+        border: 2px white solid;
+        margin: auto;
+        align-items: center;
+    }
+
+    #main{
+        width: 80%;
+        padding: 1%;
+        margin: auto;
+        color: white;
+        font-size: 1.2em;
+    }
+
+    #background{
+        height: 100%;
+    }
+    
+    div{
+        display: block;
+    }
+
+    .how-it-works-block{
+        display: block;
+        float: none;
+    }
+    
+    .choose-block{
+        width: 90%;
+        margin: auto;
+    }
+
+    .choose-block img{
+        display: none;
+    }
+
+    .review{
+        width: 90%;
+    }
+
+    .footer-list{
+        width: 90%;
+    }
+
+    #navbar-list li{
+        padding: 0.5% 0%;
+    } 
+
+    .how-it-works-block{
+        width: 70%;
+    }
+
+    .how-it-works-image{
+        height: 20px;
+        width: 20px;
+    }
+
+    .how-it-works-image img{
+        height: 20px;
+        width: 20px;
+    }
+    
+    .arrow{
+        font-size: 20px;
+        display: inline-block;
+    }
+}
+
+@media only screen and (min-width: 484px) and (max-width: 767px){
+    #maid-image{
+        visibility: hidden;
+    }
+
+    #navbar-list li{
+        margin: 0 5px;
+    }
+
+    #main-h1{
+        font-size: 1.5em;
+    }
+
+    #main{
+        padding-top: 15%;
+        padding-bottom: 15%;
+    }
+
+    #background{
+        height: 70%;
+    }
+
+    #main{
+        margin: auto;
+        padding: auto;
+        width: 70%;
+    }
+
+    div{
+        display: block;
+    }
+
+    .how-it-works-block{
+        display: block;
+        float: none;
+        width: 60%;
+    }
+
+    .block-row{
+        display: table-row;
+        width: 90%;
+        margin: auto;
+    }
+
+    .choose-block{
+        width: 40%;
+        margin: auto;
+        display: table-cell;
+    }
+
+    .choose-block img{
+        display: none;
+    }
+
+    .review{
+        width: 90%;
+    }
+
+    .footer-list{
+        width: 20%;
+        margin: 0%;
+    }
+
+    .ul-heading{
+        font-size: 1.2em;
+    }
+
+    .logo{
+        float: right;
+    }
+
+    .how-it-works-image{
+        height: 50px;
+        width: 50px;
+    }
+
+    .how-it-works-image img{
+        height: 40px;
+        width: 40px;
+    }
+    
+    .arrow{
+        font-size: 50px;
+        display: inline-block;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1101px){
+    nav div{
+        float: right;
+    }
+
+    #main-h1{
+        font-size: 2em;
+    }
+
+    #main{
+        padding-top: 3%;
+        padding-bottom: 3%;
+        width: 70%;
+        position: relative;
+        right: 10%;
+    }
+
+    #background{
+        height: 70%;
+    }
+
+    div{
+        display: block;
+    }
+
+    .how-it-works-block{
+        display: block;
+        float: none;
+    }
+
+    .block-row{
+        display: flex;
+        margin-left: 5%;
+    }
+
+    .choose-block{
+        width: 45%;
+    }
+
+    .review-parent{
+        padding: 1%;
+        display: flex;
+        width: 100%;
+    }
+
+    .review{
+        width: 30%;
+    }
+
+    .how-it-works-image{
+        height: 50px;
+        width: 50px;
+    }
+
+    .how-it-works-image img{
+        height: 40px;
+        width: 40px;
+    }
+    
+    .arrow{
+        font-size: 50px;
+        display: inline-block;
+    }
+}
+
+@media only screen and (min-width: 1102px) and (max-width: 1336px){
+    #main-h1{
+        font-size: 3em;
+    }
+
+    #main{
+        padding: 0% 4%;
+        width: 65%;
+    }
+
+    .how-it-works-block{
+        display: block;
+        float: none;
+    }
+
+    .choose-block{
+        width: 45%;
+    }
+
+    #background{
+        height: 75%;
+    }
+
+    .review{
+        width: 90%;
+    }
+
+    .review-parent{
+        display: flex;
+        margin: 5%;
+    }
+}
+
+@media only screen and (min-width: 1337px){
+    .how-it-works-block{
+        display: block;
+        float: none;
+    }
+
+    #main{
+        padding-top: 1%;
+        padding-bottom: 1%;
+        width: 70%;
+    }
+
+    .choose-block{
+        width: 45%;
+    }
+
+    .review{
+        width: 90%;
+    }
+
+    .review-parent{
+        display: flex;
+        margin: 5%;
+    }
 }

@@ -14,16 +14,18 @@ error_reporting(0);
         <nav>
             <ul id="navbar-list">
                 <li id="logo">Logo</li>
-                <li>Home</li>
-                <li>About</li>
-                <li>Contact Us</li>
-                <li>Register</li>
-                <li>Login</li>
+                <span>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact Us</li>
+                    <li>Register</li>
+                    <li>Login</li>
+                </span>
             </ul>
         </nav>
 
         <div id="main"> <!--Maid Available Online-->
-            <h1 style="color: white; font-size: 4em; margin-bottom: 0.5%;">Maid Available Online</h1>
+            <h1 id="main-h1">Maid Available Online</h1>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio earum eveniet quasi voluptatem enim sint praesentium magnam eaque aliquid fugiat. Dignissimos dolores iure at animi atque. Beatae nihil nemo perferendis?<br>
             <div>
                 <div class="employee-reg">Register As Employee</div>
@@ -41,10 +43,29 @@ error_reporting(0);
         <div class="how-it-works-block"> <!--How it Works?-->
             <h1>How it works?</h1>
             <hr>
-            <div>
-                <img>
-                <img>
-                <img>
+            <div style="display: inline-block;">
+                <div class="how-it-works-image">
+                    <img src="images/inspection-removebg-preview.png" >
+                </div><br>
+                Inspection
+            </div>
+            <div class="arrow">
+                &#x2192;
+            </div>
+            <div style="display: inline-block">
+                <div class="how-it-works-image">
+                    <img src="images/verification-removebg-preview.png" >
+                </div><br>
+                Verification
+            </div>
+            <div class="arrow">
+                &#x2192;
+            </div>
+            <div style="display: inline-block">
+                <div class="how-it-works-image">
+                    <img src="images/selected-removebg-preview.png" >
+                </div><br>
+                Selection
             </div>
         </div>
 
@@ -52,7 +73,7 @@ error_reporting(0);
             <h1>Why Choose Us?</h1>
             <hr>
             <div style="padding: 1%;">
-                <div> <!--row-->
+                <div class="block-row"> <!--row-->
                     <div  class="choose-block">
                         <img src="images/validation-pic-removebg-preview.png">
                         <h3>Verified and Trained Professionals</h3><br>
@@ -64,7 +85,7 @@ error_reporting(0);
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, aspernatur quasi! Error suscipit laborum dolorem eos possimus voluptatem dolores iusto. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis porro quia facere iusto quo corporis corrupti excepturi asperiores nemo beatae.
                     </div>
                 </div>
-                <div> <!--row-->
+                <div class="block-row"> <!--row-->
                     <div class="choose-block">
                         <img src="images/validation-pic-removebg-preview.png">
                         <h3>Customer Support</h3><br>
@@ -79,10 +100,10 @@ error_reporting(0);
             </div>
         </div>
 
-        <div style="text-align: center;" class="block"> <!--Success Stories-->
+        <div style="text-align: center; margin: auto;" class="block"> <!--Success Stories-->
             <h1>Success Stories</h1>
             <hr>
-            <div style="padding: 1%;">
+            <div class="review-parent">
                 <div class="review">
                     <img src="images/female-face.webp">
                     <h3>Name:</h3>XYZ
@@ -105,7 +126,28 @@ error_reporting(0);
         </div>
 
         <footer>
-            <table>
+            <ul class="footer-list">
+                <li class="table-logo">Logo</li>
+            </ul>
+            <ul class="footer-list">
+                <li class="ul-heading">About Us</li>
+                <li>Our Mission</li>
+                <li>Our Vision</li>
+                <li>Out Team</li>
+            </ul>
+            <ul class="footer-list">
+                <li class="ul-heading">Contact Us</li>
+                <li><a href="mailto:customer@maidonline.com">Contact email: customer@maidonline.com</a></li>
+                <li>Contact No.: 180052413600</li>
+            </ul>
+            <ul class="footer-list">
+                <li class="ul-heading">Connect with us!</li>
+                <li>Link1</li>
+                <li>Link2</li>
+                <li>Link3</li>
+                <!-- <li>Link4</li> -->
+            </ul>
+            <!-- <table>
                 <tr class="table-row">
                     <th></th>
                     <th>About Us</th>
@@ -136,7 +178,7 @@ error_reporting(0);
                         </ul>
                     </td>
                 </tr>
-            </table>
+            </table> -->
             <div style="text-align: center; display: block; color: rgb(240,84,84); padding: 0.2%;">&copy; All rights reserved</div>
         </footer>
     </body>
