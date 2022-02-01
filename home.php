@@ -17,15 +17,15 @@ error_reporting(0);
                 <span>
                     <li>Home</li>
                     <li>About</li>
+                    <li>Jobs</li>
                     <li>Contact Us</li>
-                    <li>Register</li>
-                    <li>Login</li>
                 </span>
+                <li id="account-icon"><i class="fa fa-user icon"></i></li>
             </ul>
         </nav>
 
         <div id="main"> <!--Maid Available Online-->
-            <h1 id="main-h1">Maid Available Online</h1>
+            <h1 id="main-h1">Job Available Online</h1>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio earum eveniet quasi voluptatem enim sint praesentium magnam eaque aliquid fugiat. Dignissimos dolores iure at animi atque. Beatae nihil nemo perferendis?<br>
             <div>
                 <div class="employee-reg">Register As Employee</div>
