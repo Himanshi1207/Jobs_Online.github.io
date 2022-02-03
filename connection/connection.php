@@ -2,7 +2,7 @@
 
 $servername = "localhost";
 $username = "root";
-$password = "";
+$password = "himanshi@12";
 $dbname = "jobPortal";
 
 $conn = mysqli_connect($servername, $username, $password, $dbname);

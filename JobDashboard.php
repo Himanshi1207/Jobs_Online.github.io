@@ -1,17 +1,10 @@
-<?php
-include("connection/connection.php");
-error_reporting(0);
-?>
-
-<!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Find Jobs Online</title>
-        <link rel="stylesheet" href="css/styles_home.css" />
-        <script src="https://kit.fontawesome.com/00cf8b631d.js" crossorigin="anonymous"></script>
-    </head>
-    <body>
+
+<head>
+    <script src="https://kit.fontawesome.com/00cf8b631d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
     <style>
         * {
             margin: 0;
@@ -66,9 +59,10 @@ error_reporting(0);
             text-decoration: none;
             color: #f5f5f5;
             font-size: 25px;
-            padding:0 10px;
+            padding: 10px;
             margin: 13px;
         }
+
         .hnavbarlink1 a:hover {
             /* color: #124143; */
             background-color: rgb(255,255,255,0.1);
@@ -206,7 +200,7 @@ error_reporting(0);
             width:60px;
         }
         .hstatus-title{
-            font-size:28px;
+            font-size:20px;
         }
         .hstatus-number{
             font-size:25px;
@@ -246,7 +240,7 @@ error_reporting(0);
             font-size: 20px;
         }
     </style>
-   <div class="hc">
+    <div class="hc">
         <div class="hcb1">
             <img src="./images/logo.png" alt="">
         </div>
@@ -254,140 +248,126 @@ error_reporting(0);
             <ul class="hnavbar">
                 <li class="hnavbarlink1"><a href="#">Home</a></li>
                 <li class="hnavbarlink1"><a href="#">About Us</a></li>
-                <li class="hnavbarlink1"><a href="jobs.php">Jobs</a></li>
+                <li class="hnavbarlink1"><a href="#">Jobs</a></li>
                 <li class="hnavbarlink1"><a href="#">Blog</a></li>
                 <li class="hnavbarlink1"><a href="#">Contact Us</a></li>
             </ul>
         </div>
         <div class="hcb3">
-            <!-- <div class="hpaj">
+            <div class="hpaj">
                 <button class="hbtn">
                     Post a Job
                 </button>
             </div>
             <div class="hlogin">
                 <a href="https://www.instagram.com" class="fa fa-bell links-items" target="_blank"></a>
-            </div> -->
+            </div>
             <div class="huser">
                 <a href="https://www.instagram.com" class="fa fa-user links-items" target="_blank"></a>
             </div>
         </div>
     </div>
-        <!-- <nav>
-            <ul id="navbar-list">
-                <li id="logo">Logo</li>
-                <span>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Jobs</li>
-                    <li>Contact Us</li>
-                </span>
-                <li id="account-icon"><i class="fa fa-user icon"></i></li>
-            </ul>
-        </nav> -->
-
-        <div id="main"> <!--Maid Available Online-->
-            <h1 id="main-h1">Job Available Online</h1>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio earum eveniet quasi voluptatem enim sint praesentium magnam eaque aliquid fugiat. Dignissimos dolores iure at animi atque. Beatae nihil nemo perferendis?<br>
-            <div>
-                <a href="EmpReg.php" class="employee-reg">Employee</a>
-                <a href="JobReg.php" class="job-seeker-reg">Job Seeker</a>
-            </div>
+    <div class="hc2">
+        <img src="./images/findinghelper.jpg" alt="">
+    </div>
+    <div class="hc4">
+        <div class="hc4box1">
+            <img src="./images/girl.jpg" alt="">
         </div>
-
-        <div id="background">
-        </div>
-
-        <div id="maid-image">
-            <img src="images/maid-pic-removebg-preview.png">
-        </div>
-        
-        <div class="how-it-works-block"> <!--How it Works?-->
-            <h1>How it works?</h1>
-            <hr>
-            <div style="display: inline-block;">
-                <div class="how-it-works-image">
-                    <img src="images/inspection-removebg-preview.png" >
-                </div><br>
-                Inspection
+        <div class="hc4box2">
+            <div class="hc4box2heading">
+                Application Status
             </div>
-            <div class="arrow">
-                &#x2192;
-            </div>
-            <div style="display: inline-block">
-                <div class="how-it-works-image">
-                    <img src="images/verification-removebg-preview.png" >
-                </div><br>
-                Verification
-            </div>
-            <div class="arrow">
-                &#x2192;
-            </div>
-            <div style="display: inline-block">
-                <div class="how-it-works-image">
-                    <img src="images/selected-removebg-preview.png" >
-                </div><br>
-                Selection
-            </div>
-        </div>
-
-        <div class="block"> <!--Why Choose Us?-->
-            <h1>Why Choose Us?</h1>
-            <hr>
-            <div style="padding: 1%;">
-                <div class="block-row"> <!--row-->
-                    <div  class="choose-block">
-                        <img src="images/validation-pic-removebg-preview.png">
-                        <h3>Verified and Trained Professionals</h3><br>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat facilis officiis perferendis quod enim sunt. Aspernatur quidem iste ratione, iusto cupiditate necessitatibus nisi dicta labore quos omnis doloremque perspiciatis, nulla vitae repellat quis eveniet, quisquam delectus neque quo debitis voluptatum.
+            <div class="hc4box2boxes">
+                <div class="hstatus">
+                    <div class="hstatus-icon fa fa-bag">
+                        <img src="./images/bag.jpg" alt="">
                     </div>
-                    <div class="choose-block">
-                        <img src="images/validation-pic-removebg-preview.png">
-                        <h3>Affordable Charges</h3><br>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, aspernatur quasi! Error suscipit laborum dolorem eos possimus voluptatem dolores iusto. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis porro quia facere iusto quo corporis corrupti excepturi asperiores nemo beatae.
+                    <div class="hstatus-title">
+                        <p>Applied Jobs</p>
+                    </div>
+                    <div class="hstatus-number">
+                        <p>10</p>
                     </div>
                 </div>
-                <div class="block-row"> <!--row-->
-                    <div class="choose-block">
-                        <img src="images/validation-pic-removebg-preview.png">
-                        <h3>Customer Support</h3><br>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut illum atque, labore corporis dolores consectetur blanditiis ipsum distinctio, corrupti maxime officia facilis debitis. Aperiam, at adipisci aliquid sapiente reprehenderit, unde nemo animi sint ea necessitatibus molestias. Veniam est a ex?
+                <div class="hstatus">
+                    <div class="hstatus-icon fa fa-bag">
+                        <img src="./images/favorite.png" alt="">
                     </div>
-                    <div class="choose-block">
-                        <img src="images/validation-pic-removebg-preview.png">
-                        <h3>Committed Services</h3><br>
-                        Lorem ipsum dolor jojasos jaosoas sit amet consectetur, adipisicing elit. Molestias suscipit porro ut ipsam officiis? Quia esse a quaerat officiis earum amet, labore atque ullam sit! Magni iste, labore mollitia sequi reprehenderit, accusamus placeat officia atque facilis a suscipit, djosdjo ojsod istinctio minus.
+                    <div class="hstatus-title">
+                        <p>Favourite Jobs</p>
+                    </div>
+                    <div class="hstatus-number">
+                        <p>200</p>
+                    </div>
+                </div>
+                <div class="hstatus">
+                    <div class="hstatus-icon fa fa-bag">
+                        <img src="./images/alert.png" alt="">
+                    </div>
+                    <div class="hstatus-title">
+                        <p>Job Alerts</p>
+                    </div>
+                    <div class="hstatus-number">
+                        <p>50</p>
                     </div>
                 </div>
             </div>
         </div>
-
-        <div style="text-align: center; margin: auto;" class="block"> <!--Success Stories-->
-            <h1>Success Stories</h1>
-            <hr>
-            <div class="review-parent">
-                <div class="review">
-                    <img src="images/female-face.webp">
-                    <h3>Name:</h3>XYZ
-                    <h3>Experience</h3>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto aliquam quibusdam, veritatis, nostrum repellat fuga voluptate id numquam odio explicabo a exercitationem, debitis doloremque amet eligendi nam distinctio modi provident.
-                </div>
-                <div class="review">
-                    <img src="images/female-face.webp">
-                    <h3>Name:</h3>XYZ
-                    <h3>Experience</h3>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto aliquam quibusdam, veritatis, nostrum repellat fuga voluptate id numquam odio explicabo a exercitationem, debitis doloremque amet eligendi nam distinctio modi provident.
-                </div>
-                <div class="review">
-                    <img src="images/female-face.webp">
-                    <h3>Name:</h3>XYZ
-                    <h3>Experience</h3>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus molestiae beatae temporibus. Optio placeat quibusdam fugiat quae. Enim dignissimos ipsa totam voluptas ea ducimus repellendus tempora. Deleniti esse molestias officia sint, officiis aspernatur animi atque aut sit illum odio maxime!
-                </div>
+    </div>
+    <div class="hc5">
+        <div class="hc5box1">
+            <div class="hc5btn1">
+            <button class="hc5hbtn active">
+                    Dashboard
+                </button>
+            </div>
+            <div class="hc5btn1">
+            <button class="hc5hbtn active">
+                    Edit Profile
+                </button>
+            </div>
+            <div class="hc5btn1">
+            <button class="hc5hbtn active">
+                    My Applicants
+                </button>
+            </div>
+            <div class="hc5btn1">
+            <button class="hc5hbtn active">
+                    Manage Jobs
+                </button>
+            </div>
+            <div class="hc5btn1">
+            <button class="hc5hbtn active">
+                    Post a Resume
+                </button>
+            </div>
+            <div class="hc5btn1">
+            <button class="hc5hbtn active">
+                    Change Password
+                </button>
+            </div>
+            <div class="hc5btn1">
+            <button class="hc5hbtn active">
+                    Delete Account
+                </button>
+            </div>
+            <div class="hc5btn1">
+            <button class="hc5hbtn active">
+                    Logout
+                </button>
             </div>
         </div>
-
-        <div class="hc3">
+        <div class="hc5box2">
+            <div class="hc5heading">
+                Company Name
+            </div>
+            <div class="hc5content">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos voluptas alias laudantium, quia, deleniti tempora voluptatem incidunt sed unde consectetur odit et praesentium obcaecati. Eius ipsa molestias amet iusto, consequuntur eum eveniet nam illo ipsam quis sequi sint deleniti adipisci quo perferendis ea sit blanditiis est sapiente ratione dolorum maxime!
+            </div>
+        </div>
+    </div>
+    <div class="hc3">
         <div class="hc3b1">
             <div class="hc3b1p1">
                 <div class="image">
@@ -433,5 +413,6 @@ error_reporting(0);
             <div class="fa fa-copyright hcopyright">All rights reserved</div>
         </div>
     </div>
-    </body>
+</body>
+
 </html>
