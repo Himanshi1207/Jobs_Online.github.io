@@ -28,9 +28,6 @@ body {
   color: #333;
 }
 
-.wrapper form {
-  margin-top: 30px;
-}
 .wrapper form .input-box {
   height: 52px;
   margin: 18px 0;
@@ -50,7 +47,7 @@ form .input-box input {
 }
 .input-box input:focus,
 .input-box input:valid {
-  border-color: #00b383;
+  border-color: #124143;
 }
 form .policy {
   display: flex;
@@ -66,11 +63,11 @@ form h3 {
   color: #fff;
   letter-spacing: 1px;
   border: none;
-  background: #00b383;
+  background: #124143;
   cursor: pointer;
 }
 .input-box.button input:hover {
-  background: #00b383;
+  background: #124143;
 }
 form .text h3 {
   color: #333;
@@ -78,7 +75,7 @@ form .text h3 {
   text-align: center;
 }
 form .text h3 a {
-  color: #00b383;
+  color: #124143;
   text-decoration: none;
 }
 form .text h3 a:hover {
