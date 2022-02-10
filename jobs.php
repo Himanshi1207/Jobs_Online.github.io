@@ -8,6 +8,96 @@
         <link rel="stylesheet" href="css/style-jobs.css" />
     </head>
     <body>
+        <style>
+            *{
+    box-sizing: border-box;
+}
+
+.icon {
+    color: white;
+}
+
+.input-icons{
+    display: inline-block;
+    padding: 2% 0%;
+}
+
+#search-input-box{
+    border-radius: 5%;
+    border: none;
+    padding: 7% 0%;
+}
+
+.search-box{
+    padding: 10%;
+    background-color: rgb(18,65,67);
+}
+
+.filters-box, .recent{
+    display: inline-block;
+    width: 25%;
+    margin: auto;
+}
+
+h3{
+    padding: 4%;
+}
+
+.heading-div{
+    font-size: larger;
+    font-weight: bolder;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.greyC{
+    color: gray;
+    padding-top: 2%;
+}
+
+.results{
+    display: inline-block;
+    width: 40%;
+    margin: auto;
+}
+
+.filters-box div{
+    padding: 1%;
+}
+
+@media (max-width: 483px) {
+    .filters-box{
+        display: none;
+    }
+
+    .recent{
+        display: none;
+    }
+
+    .results{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 484px) and (max-width: 767px){
+    .recent{
+        display: none;
+    }
+
+    .results{
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1101px){
+}
+
+@media only screen and (min-width: 1102px) and (max-width: 1336px){
+}
+
+@media only screen and (min-width: 1337px){ 
+}
+            </style>
         <nav>
             <ul id="navbar-list">
                 <li id="logo">Logo</li>

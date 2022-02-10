@@ -10,7 +10,7 @@
             margin: 0;
             padding: 0;
         }
-
+        
         .hc {
             position: fixed;
         }
@@ -82,11 +82,17 @@
         .hbtn {
             cursor: pointer;
             padding: 10px 15px;
-            border-radius: 10px;
+            margin:0 33px;
+            border-radius: 5px;
             background-color: #f5f5f5;
-            font-size: 16px;
+            border:2px solid #124143;
+            font-size: 20px;
+            transition:0.3s;
         }
-
+        .hbtn:hover{
+            background:#124143;
+            color:white;
+        }
         .heplogin,
         .huser {
             color: white;
@@ -181,12 +187,13 @@
             /* font-weight:500; */
         }
         .hc4box2boxes{
-            justify-content: space-between;
+            justify-content: flex-start;
             display:flex;
             padding:0 30px;
         }
         .hstatus{
-            padding:20px;
+            padding:10px;
+            margin:20px;
             display: flex;
             border: 1px solid black;
             flex-direction: column;
@@ -194,15 +201,17 @@
             align-items: center;
             height:140px;
             width:140px;
+            border-radius:50%;
         }
         .hstatus-icon img{
             height:60px;
             width:60px;
         }
         .hstatus-title{
-            font-size:20px;
+            font-size:28px;
         }
         .hstatus-number{
+            font-weight:bold;
             font-size:25px;
         }
         .hstatus-number,.hstatus-title,.hstatus-icon{
@@ -215,11 +224,49 @@
             border-radius:0 20px 20px 0;
         }
         .hc5box2{
+            display:flex;
+            justify-content:center;
+            align-items:center;
             width:60%;
         }
         .hc5heading{
+            display:flex;
+            flex-direction:column;
             font-size:40px;
-            padding:0px 33px;
+            margin-bottom:35px;
+            padding:0 33px;
+        }
+        .ptitle{
+            font-size:30px;
+        }
+        .twoinone{
+            display:flex;
+        }
+        .twoinone > .hc5heading {
+            width:100%;
+        }
+        .hc5heading > input{
+            width: 100%;
+  resize: none;
+  padding: 5px 0;
+  font-size: 25px;
+  font-weight: 300;
+  color: #333;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #777;
+  font-family: "PT Serif", serif;
+        }
+        .hc5heading > textarea{
+            width: 100%;
+  resize: none;
+  padding: 5px;
+  font-size: 18px;
+  font-weight: 300;
+  color: #333;
+  outline: none;
+  height: 120px;
+  border: 1px solid #777;
         }
         .hc5content{
             padding:0 33px;
@@ -254,11 +301,6 @@
             </ul>
         </div>
         <div class="hcb3">
-            <div class="hpaj">
-                <button class="hbtn">
-                    Post a Job
-                </button>
-            </div>
             <div class="hlogin">
                 <a href="https://www.instagram.com" class="fa fa-bell links-items" target="_blank"></a>
             </div>
@@ -272,44 +314,41 @@
     </div>
     <div class="hc4">
         <div class="hc4box1">
-            <img src="./images/girl.jpg" alt="">
+            <img src="./images/facebook.png" alt="">
         </div>
         <div class="hc4box2">
             <div class="hc4box2heading">
-                Application Status
+                Post A Job
             </div>
             <div class="hc4box2boxes">
                 <div class="hstatus">
                     <div class="hstatus-icon fa fa-bag">
-                        <img src="./images/bag.jpg" alt="">
                     </div>
                     <div class="hstatus-title">
-                        <p>Applied Jobs</p>
+                        <p>Job Details</p>
                     </div>
                     <div class="hstatus-number">
-                        <p>10</p>
+                        <p>Step 1:</p>
                     </div>
                 </div>
                 <div class="hstatus">
                     <div class="hstatus-icon fa fa-bag">
-                        <img src="./images/favorite.png" alt="">
                     </div>
                     <div class="hstatus-title">
-                        <p>Favourite Jobs</p>
+                        <p>Review</p>
                     </div>
                     <div class="hstatus-number">
-                        <p>200</p>
+                        <p>Step 2:</p>
                     </div>
                 </div>
                 <div class="hstatus">
                     <div class="hstatus-icon fa fa-bag">
-                        <img src="./images/alert.png" alt="">
                     </div>
                     <div class="hstatus-title">
-                        <p>Job Alerts</p>
+                        <p>Confirm</p>
                     </div>
                     <div class="hstatus-number">
-                        <p>50</p>
+                        <p>Step 3:</p>
                     </div>
                 </div>
             </div>
@@ -329,7 +368,7 @@
             </div>
             <div class="hc5btn1">
             <button class="hc5hbtn active">
-                    My Applicants
+                    All Applicants
                 </button>
             </div>
             <div class="hc5btn1">
@@ -338,8 +377,13 @@
                 </button>
             </div>
             <div class="hc5btn1">
-            <button  class="hc5hbtn active">
-                    Post a Resume
+            <button class="hc5hbtn active">
+                    Post a job
+                </button>
+            </div>
+            <div class="hc5btn1">
+            <button class="hc5hbtn active">
+                    Saved Candidates
                 </button>
             </div>
             <div class="hc5btn1">
@@ -359,12 +403,35 @@
             </div>
         </div>
         <div class="hc5box2">
+            <form>
             <div class="hc5heading">
-                Company Name
+                <label class="ptitle">Job Title</label>
+                <input name="title"></input>
             </div>
-            <div class="hc5content">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos voluptas alias laudantium, quia, deleniti tempora voluptatem incidunt sed unde consectetur odit et praesentium obcaecati. Eius ipsa molestias amet iusto, consequuntur eum eveniet nam illo ipsam quis sequi sint deleniti adipisci quo perferendis ea sit blanditiis est sapiente ratione dolorum maxime!
+            <div class="hc5heading">
+                <label class="ptitle">Job Description</label>
+                <textarea name="desc"></textarea>
             </div>
+            <div class="hc5heading">
+                <label class="ptitle">Skills Required</label>
+                <input name="skills"></input>
+            </div>
+        <div class="twoinone">
+            <div class="hc5heading">
+                <label class="ptitle">Salary</label>
+                <input name="salary"></input>
+            </div>
+            <div class="hc5heading">
+                <label class="ptitle">Job Type</label>
+                <input name="Job-type"></input>
+            </div>
+        </div>  
+        <div class="hpaj">
+                <button class="hbtn">
+                    Post a Job
+                </button>
+            </div>
+            </form>
         </div>
     </div>
     <div class="hc3">

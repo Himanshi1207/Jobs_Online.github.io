@@ -269,7 +269,7 @@ error_reporting(0);
                 <a href="https://www.instagram.com" class="fa fa-bell links-items" target="_blank"></a>
             </div> -->
             <div class="huser">
-                <a href="https://www.instagram.com" class="fa fa-user links-items" target="_blank"></a>
+                <a href="   " class="fa fa-user links-items" target="_blank"></a>
             </div>
         </div>
     </div>
