@@ -150,6 +150,7 @@
             text-decoration:none;
         }
         .hcopyright{
+            color: rgb(240,84,84);
             font-size: 25px;
             text-align: center;
             width: 100%;
@@ -246,7 +247,7 @@
         </div>
         <div class="hcb2">
             <ul class="hnavbar">
-                <li class="hnavbarlink1"><a href="#">Home</a></li>
+                <li class="hnavbarlink1"><a href="index.html">Home</a></li>
                 <li class="hnavbarlink1"><a href="#">About Us</a></li>
                 <li class="hnavbarlink1"><a href="#">Jobs</a></li>
                 <li class="hnavbarlink1"><a href="#">Blog</a></li>

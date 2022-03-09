@@ -150,6 +150,7 @@
             text-decoration:none;
         }
         .hcopyright{
+            color: rgb(240,84,84);
             font-size: 25px;
             text-align: center;
             width: 100%;
