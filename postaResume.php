@@ -281,7 +281,7 @@
     </style>
     <div class="hc">
         <div class="hcb1">
-            <img src="./images/logo.png" alt="">
+            <img src="./images/OneShotJob.svg" alt="">
         </div>
         <div class="hcb2">
             <ul class="hnavbar">
@@ -306,11 +306,11 @@
     </div>
     <div class="hc4">
         <div class="hc4box1">
-            <img src="./images/facebook.png" alt="">
+            <img src="./images/girl.jpg" alt="">
         </div>
         <div class="hc4box2">
             <div class="hc4box2heading">
-                Post A Job
+                Post A Resume
             </div>
             <div class="hc4box2boxes">
                 <div class="hstatus">
@@ -438,7 +438,7 @@
         <div class="hc3b1">
             <div class="hc3b1p1">
                 <div class="image">
-                    <img src="./images/logo.png" alt="">
+                    <img src="./images/OneShotJob.svg" alt="">
                 </div>
                 <div class="p1ctent">
                     Lorem ipsum dolor sit, amet csectetur adipisicing elit. Ex veniam impedit repellendus neque magni accusamus beatae cumque, natus nostrum molestias quia facere atque tenetur! Corrupti inventore recusandae quam mollitia illo!
